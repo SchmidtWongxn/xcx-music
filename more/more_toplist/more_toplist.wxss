@@ -1,0 +1,26 @@
+/* more/more_toplist/more_toplist.wxss */
+.songsheet_items_allbox{
+  margin-top: 25rpx;
+}
+.songsheet_item_box{
+  width: 50%;
+  padding-top: 10rpx;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.songsheet_container_image{
+  height: 335rpx;
+  width: 95%;
+  margin: 5rpx;
+  border-radius: 8rpx;
+}
+.songsheet_container_text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;  
+  -webkit-box-orient: vertical;
+  font-size: 13px;
+  margin-top: 10rpx;
+  padding-left: 10rpx;
+}

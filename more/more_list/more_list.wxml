@@ -1,0 +1,2 @@
+<!--more/more_list/more_list.wxml-->
+<moreList songList="{{songList}}"/>

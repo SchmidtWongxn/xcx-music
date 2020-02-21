@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "moreMV": "../more_mv/more_mv"
+  },
+  "component": true
+}

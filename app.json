@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/love/love",
+    "pages/me/me",
+    "pages/search/search",
+    "pages/song_sheet/song_sheet",
+    "custom-tab-bar/index",
+    "play/play",
+    "play/play_mv",
+    "more/more_mv/more_mv",
+    "more/more_songer/more_songer",
+    "more/more_songer/moremore_songer",
+    "more/more_sheet/more_sheet",
+    "more/more_list/more_list",
+    "more/more_toplist/more_toplist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DC4238",
+    "navigationBarTitleText": "Music",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#C62F2F",
+    "onReachBottomDistance": 50,
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8D8D8D",
+    "selectedColor": "#DC4238",
+    "backgroundColor": "#f6f6f8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "乐库",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/selected-music.png"
+      },
+      {
+        "pagePath": "pages/love/love",
+        "text": "收藏",
+        "iconPath": "images/love.png",
+        "selectedIconPath": "images/selected-love.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/selected-me.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

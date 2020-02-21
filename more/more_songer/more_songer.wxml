@@ -1,0 +1,15 @@
+<!--more/more_songer/more_songer.wxml-->
+<view wx:for="{{songers}}" wx:key="id" class="songer_box" data-id="{{item.id}}" bindtap="handlesheet">
+  <text class="songer_index">{{index+1}}</text>
+  <view class="songer_image_box">
+    <image src="{{item.picUrl}}" class="songer_image"></image>
+  </view>
+  <view class='songer_name_box'>
+    <text class='songer_name'>{{item.name}}</text>
+    <text class='songer_score'>{{item.score}}热度</text>
+  </view>
+</view>
+
+
+
+

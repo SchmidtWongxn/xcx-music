@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "moreList": "../more_songer/moremore_songer"
+  },
+  "component": true
+}

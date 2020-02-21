@@ -1,0 +1,22 @@
+/* more/more_songer/moremore_songer.wxss */
+@import "./more_songer";
+@import "../../pages/search/search";
+.songer_box {
+  height: 100rpx;
+}
+.search_result_item{
+  margin: 8rpx;
+  border-bottom: 1px solid #EDEEF0;
+}
+.songer_index {
+  line-height: 47px;
+}
+.song_sheet_box{
+  display: inline-box;
+}
+.songer_img_box{
+  width: 90%;
+}
+.search_result_songs{
+  margin-top: 0;
+}

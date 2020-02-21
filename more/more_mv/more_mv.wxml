@@ -1,0 +1,26 @@
+<!--more/more_mv/more_mv.wxml-->
+<view wx:if="{{type === 'mv'}}">
+  <view class="songsheet_items_allbox newsong_allbox">
+    <text class="songsheet_container_title">MV</text>
+    <view>
+      <view wx:for="{{sheetData}}" wx:key="id" data-id="{{item.id}}" class='recommend_mv' bindtap="handlePlayMv">
+        <image src="{{item.cover}}" class="songsheet_container_image"></image>
+        <text class='songsheet_container_text newsong_songname'>{{item.name}}</text>
+        <text class='newsong_artists'>{{item.artistName}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{type === 'songList'}}">
+  <view class="songsheet_items_allbox newsong_allbox">
+    <text class="songsheet_container_title">歌单</text>
+    <view>
+      <view wx:for="{{sheetData}}" wx:key="id" data-id="{{item.id}}" class='recommend_mv' bindtap="handleSheet">
+        <image src="{{item.coverImgUrl}}" class="songsheet_container_image"></image>
+        <text class='songsheet_container_text newsong_songname'>{{item.name}}</text>
+        <text class='newsong_artists'>{{item.creator.nickname}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+

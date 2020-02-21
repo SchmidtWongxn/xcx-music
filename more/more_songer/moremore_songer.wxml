@@ -1,0 +1,10 @@
+<!--more/more_songer/moremore_songer.wxml-->
+<view class="search_result_songs">
+  <view wx:for="{{songList}}" wx:key="id" class="search_result_item songer_box" data-id="{{item.id}}" bindtap="handleAudioPlay">
+    <text class='songer_index'>{{index + 1}}</text>
+    <view class='song_img_box'>
+      <view class='search_result_song_song_name'>{{item.name}}</view>
+      <view class='search_result_song_song_art-album'>{{item.ar[0].name}} - {{item.al.name}}</view>
+    </view>
+  </view>
+</view> 

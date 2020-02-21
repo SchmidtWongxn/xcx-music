@@ -1,0 +1,2 @@
+<!--more/more_sheet/more_sheet.wxml-->
+<moreMV sheet-data="{{sheetList}}" type="{{type}}"/>

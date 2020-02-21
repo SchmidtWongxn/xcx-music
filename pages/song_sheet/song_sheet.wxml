@@ -1,0 +1,12 @@
+<!--pages/song_sheet/song_sheet.wxml-->
+<view class="songsheet_items_allbox">
+  <text class='songsheet_container_title' bindtap="{{action}}">{{title}}</text>
+  <image src="/images/dayuhao.png" class='title_leader'></image>
+  <view class="songsheet_items_box">
+    <view wx:for="{{sheetData}}" wx:key="id" class="songsheet_item_box {{title == '推荐MV' ? 'recommend_mv' : ''}}">
+      <image src="{{item.picUrl}}" class="songsheet_container_image"></image>
+      <text class='songsheet_container_text newsong_songname'>{{item.name}}</text>
+      <text class='newsong_artists'>{{item.artist}}</text>
+    </view>
+  </view>
+</view>

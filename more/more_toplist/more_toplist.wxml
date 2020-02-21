@@ -1,0 +1,7 @@
+<!--more/more_toplist/more_toplist.wxml-->
+<view class="songsheet_items_allbox">
+  <view wx:for="{{toplist}}" wx:key="index" class="songsheet_item_box" bindtap="go_toplist" data-id="{{index}}">
+    <image class="songsheet_container_image" src="{{toplist[index]['coverImgUrl']}}"></image>
+    <text class='songsheet_container_text'>{{toplist[index]['name']}}</text>
+  </view>
+</view>
